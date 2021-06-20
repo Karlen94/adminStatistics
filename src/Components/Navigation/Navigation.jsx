@@ -10,7 +10,10 @@ export default function Navigation() {
       <div className={styles.navMenu}>
         <div className={styles.navContainer}>
           <span>
-            <FontAwesomeIcon  style={{ color:'#fff' }} icon={faBars} />
+            <FontAwesomeIcon  
+            className={styles.iconMenu}
+            icon={faBars}  
+            onClick={()=>{console.log('Open modal');}}/>
           </span>
 
           <div style={{ fontFamily: "Lato",color:'#fff' }}> Hello, Max !</div>

@@ -1,5 +1,5 @@
 import React from "react";
-import ProgressBar from "../ProgressBar/ProgressBar";
+// import ProgressBar from "../ProgressBar/ProgressBar";
 import styles from "./percentForm.module.css";
 
 export default function PercentForm() {

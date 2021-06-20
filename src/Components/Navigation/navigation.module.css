@@ -24,3 +24,12 @@
   display: flex;
   justify-content: space-evenly;
 }
+
+.iconMenu{
+  color: #fff;
+
+}
+.iconMenu:hover{
+  color: blue;
+  opacity: 1;
+}
